@@ -1,0 +1,13 @@
+Source: rtl8723ds-dkms
+Section: net
+Priority: optional
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Build-Depends: debhelper-compat (= 12), dkms
+Standards-Version: 4.4.1
+
+Package: rtl8723ds-dkms
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Driver for RTL8723DS (DKMS version)
+ This package contains the driver for the RTL8723DS and uses DKMS to
+ automatically build the kernel modules.
